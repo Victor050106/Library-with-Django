@@ -8,5 +8,5 @@ class Book_Instance(models.Model):
     book = models.OneToOneField(Book,null=True,on_delete=models.SET_NULL)
     
     def __str__(self):
-        return 
+        return self.unique_Id
     
