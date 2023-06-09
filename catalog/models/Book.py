@@ -4,6 +4,7 @@ from .Genre import Genre
 from .Language import Language
 
 class Book(models.Model):
+    """Model representing a book ."""
     name = models.CharField(max_length=50)
     author = models.ForeignKey(Author,null=True, on_delete=models.SET_NULL )
     summary = models.CharField(max_length=50)
