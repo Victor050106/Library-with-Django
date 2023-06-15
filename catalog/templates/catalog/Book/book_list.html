@@ -1,0 +1,7 @@
+{% block content %}
+{% if book_list%}
+    {% for book in book_list %}
+        <li><a href = "{{book.get_absolute_url}}">{{book.sstatus}}</a></li>
+    {% endfor %}
+{% endif %}
+{% endblock content %}
