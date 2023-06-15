@@ -1,0 +1,7 @@
+{% block content  %}
+{%if book_instance_list%}
+    {% for book_instance in book_instance_list%}
+        <li><a href="{{book_instance.get_absolute_url}}">{{book_instance.status}}</a></li>
+    {%endfor%}
+{%endif%}
+{% endblock content  %}
