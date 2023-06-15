@@ -1,0 +1,7 @@
+{% block content%}
+{% if genre_list %}
+    {%for genre in genre_list%}
+        <li><a href = "{{genre.get_absolute_url}}">{{genre.status}}</a></li>
+    {% endfor %}
+{% endif %}
+{% endblock content %}
