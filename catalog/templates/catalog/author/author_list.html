@@ -1,0 +1,7 @@
+{% block content %}
+{% if author_list%}
+    {% for author in author_list%}
+        <li><a href = "{{author.get_absolute_url}}">{{author.status}}</a></list>
+    {%endfor%}
+{% endif %}
+{% endblock content %}
