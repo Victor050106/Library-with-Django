@@ -11,3 +11,7 @@ class Book_Instance(models.Model):
     def __str__(self):
         return self.unique_Id
     
+    def get_absolute_url(self):
+        return reverse("bookinstance_detail", args=[str(self.id)])
+    
+    
