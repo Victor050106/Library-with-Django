@@ -19,7 +19,8 @@ class AuthorDetailView(generic.DetailView):
 class AuthorCreateView(generic.CreateView):
     model = Author
     fields = [
-        'name',
+        'fname',
+        'lname',
         'date_of_birth',
         'date_of_death'
     ]
