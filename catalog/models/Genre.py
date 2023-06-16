@@ -1,5 +1,6 @@
 
 from django.db import models
+from django.urls import reverse
 
 class Genre(models.Model):
     """Model representing a book genre."""
