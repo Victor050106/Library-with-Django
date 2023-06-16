@@ -7,7 +7,6 @@ Librería Django es una aplicación web que permite gestionar una librería onli
 
 ## Características
 
-
 Utiliza el framework Django para el desarrollo web.
 Usa SQLite como base de datos.
 Implementa el patrón de diseño MVC (Modelo-Vista-Controlador).
@@ -16,6 +15,7 @@ Incluye autenticación de usuarios y permisos de acceso.
 Tiene pruebas unitarias y de integración.
 
 ## Requisitos
+
 - Python 3.9 o superior
 - Django 3.2 o superior
 - Pipenv o virtualenv
@@ -32,7 +32,6 @@ Tiene pruebas unitarias y de integración.
 - python manage.py migrate
 - python manage.py createsuperuser
 - python manage.py runserver
-
 
 ## Uso
 
@@ -51,6 +50,8 @@ Tiene pruebas unitarias y de integración.
 - Compartir el proyecto con otros usuarios interesados.
 
 ## Author
+
 - @Victor050106
 ## Licencia
+
 Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
