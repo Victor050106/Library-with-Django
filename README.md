@@ -49,5 +49,8 @@ Tiene pruebas unitarias y de integración.
 - Enviar pull requests con tus cambios o nuevas funcionalidades.
 - Escribir o mejorar la documentación del proyecto.
 - Compartir el proyecto con otros usuarios interesados.
+
+## Author
+- @Victor050106
 ## Licencia
 Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
