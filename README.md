@@ -1,7 +1,7 @@
 # Library-with-Django
 
 
-<img src = "C:\Users\Usuario\Downloads\libreria.png" alt = "Libreria">
+<img src = "img/libreria.png" alt = "Libreria">
 Librería Django
 Librería Django es una aplicación web que permite gestionar una librería online. Con esta aplicación, puedes crear, editar, borrar y consultar libros, autores, géneros y editoriales. También puedes realizar préstamos y devoluciones de libros, y ver el historial de tus operaciones.
 
