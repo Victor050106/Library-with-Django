@@ -9,8 +9,8 @@ from ..models.Language import Language
 
 def index(request):
     """function to home site"""
-    authors = Author.objects.all()
-    books = Book.objects.all()
+    author = Author.objects.all()
+    book = Book.objects.all()
     book_Instance = Book_Instance.objects.all()
     genres = Genre.objects.all()
     languages = Language.objects.all()
@@ -20,10 +20,10 @@ def index(request):
         'catalog/index.html',
         context=
         {
-            "authors":authors,
-            "books":books,
+            "author":author,
+            "book":book,
             "book_Instance": book_Instance,
-            "genres":genres,
-            "languages":languages
+            "genre":genres,
+            "language":languages
         }
     )
