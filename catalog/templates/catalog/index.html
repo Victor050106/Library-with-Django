@@ -1,4 +1,16 @@
 {% comment %} {% extends "base_generic.html" %} {% endcomment %}
+{% comment %} {% block content %}
+<h1> Autores </h1>
+{%if author%}
+    {%for author in author%}
+        <p>{{author.name}}</p>
+    {%endfor%}
+{%endif%}
+{% endblock content %} {% endcomment %}
+
+
+
+
 
 {% block content %}
 <h1>Local Library Home</h1>
