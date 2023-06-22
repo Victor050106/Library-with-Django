@@ -5,10 +5,10 @@ from django.urls import reverse
 
 class Author(models.Model):
     """Model representing a book author."""
-    fname = models.CharField(max_length=50)
-    lname = models.CharField(max_length=50)
-    date_of_birth = models.DateField(default=0)
-    date_of_death = models.DateField(default=0)
+    fname = models.CharField(max_length=50, help_text="Enter first name of Author")
+    lname = models.CharField(max_length=50, help_text="Enter last name of Author")
+    date_of_birth = models.DateField(null=False,blank=False,help_text="Enter date of birth of Author")
+    date_of_death = models.DateField('Died',null=True,blank=True,help_text="Enter date of death of Author")
 
     
     def __str__(self):
