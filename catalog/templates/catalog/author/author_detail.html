@@ -1,4 +1,13 @@
-<h1> Author</h1>
-    <ul>
-        <li>Author : {{author_detail}}</li>
-    <ul>
+<h1>Autor </h1>
+<ul>
+    <li>nombre del autor : {{author_detail.fname}} {{author_detail.lname}}</li>
+</ul>
+<h2> datos el author </h2>
+<ul>
+    <li>fecha de nacimiento : {{author_detail.date_of_birth }}</li>
+    <li>fecha de la muerte : {{author_detail.data_of_death }}</li>
+</ul>
+<h3> libros escritos </h3>
+<ul>
+    <li>{{author_detail.book.title}}</li>
+</ul>

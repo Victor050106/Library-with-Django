@@ -1,7 +1,7 @@
 {% block content%}
 {% if language_list%}
     {% for language in language_list%}
-        <li><a href = "{{language.get_absolute_url}}">{{language.status}}</a></li>
+        <li><a href = "{{language.get_absolute_url}}">{{language.name}}</a></li>
     {%endfor%}
 {%endif%}
 {% endblock content%}
