@@ -7,17 +7,15 @@ class BookListView(generic.ListView):
     context_object_name = 'book_list'
     template_name = 'catalog/book/book_list.html'
     
-
 class BookDetailView(generic.DetailView):
     model = Book
     context_object_name = 'book_detail'
     template_name = 'catalog/book/book_detail.html'
     
-    
 class BookCreateView(generic.CreateView):
     model = Book
     fields = [
-        'name',
+        'title',
         'author',
         'summary',
         'ISBN',

@@ -5,7 +5,7 @@ from ..models.Language import Language
 class LanguageListView(generic.ListView):
     model = Language
     context_object_name = 'language_list'
-    template_name = "catalog/language/.html"
+    template_name = "catalog/language/language_list.html"
     
 class LanguageDetailView(generic.DetailView):
     model = Language

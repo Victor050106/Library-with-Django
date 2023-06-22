@@ -22,7 +22,7 @@ def index(request):
         {
             "author":author,
             "book":book,
-            "book_Instance": book_Instance,
+            "bookinstance": book_Instance,
             "genre":genres,
             "language":languages
         }
